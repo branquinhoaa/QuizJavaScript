@@ -1,0 +1,43 @@
+<!doctype>
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Real quiz application</title>
+<!--  -->
+</head>
+<body>
+    
+    <div id="validation">
+        <form id="registerForm"> 
+        <p>User email: </p>
+        <input type="text" class="form-control" placeholder="username" id="user"> <br>
+        <p>User password:</p>
+        <input type="password" class="form-control" id="password">
+        <button type="submit" onclick="validate()">Submit</button>
+        </form>
+    </div>   
+    
+    
+    
+    <div id="allForm" class="hide">
+        <form id="QuestionForm">
+        <h1>Quiz test</h1>    
+        <input type="text" id="question" style="width:100%"> <br>
+        <input type="radio" name="resp" id="rsp1" value="0"><label for="rsp1"></label><br>
+        <input type="radio" name="resp" id="rsp2" value="1"><label for="rsp2"></label><br>
+        <input type="radio" name="resp" id="rsp3" value="2"><label for="rsp3"></label><br>
+        <input type="radio" name="resp" id="rsp4" value="3"><label for="rsp4"></label><br>
+
+            <button onclick="return prev(event)">BACK</button>
+            <button onclick="return next(event)">NEXT</button>
+
+
+    </form>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>

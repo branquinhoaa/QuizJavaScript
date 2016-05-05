@@ -1,0 +1,56 @@
+.hide{
+    display: none;
+}
+
+#validation{
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+#validation p{
+    padding-top: 20px;
+}
+
+#validation input{
+    width: 300px;
+    position: relative;
+    left: 40%;
+}
+
+
+h1{
+    display: flex;
+    font-family: cursive;
+    font-size: 50px;
+    font-style: italic;
+    margin: 0 auto;
+    padding: 20px 150px;
+    text-transform: uppercase;
+}
+
+button{
+    margin: 30px;
+}
+
+#QuestionForm{
+    padding: 60px;
+    margin: 10px;
+    font-family: cursive;
+    text-align: justify;
+}
+
+#QuestionForm input{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
